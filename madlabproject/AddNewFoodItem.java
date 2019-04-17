@@ -48,7 +48,7 @@ public class AddNewFoodItem extends AppCompatActivity {
     static final int REQUEST_TAKE_PHOTO = 1;
     FirebaseVisionImage image;
     FirebaseVisionImageLabeler labeler = FirebaseVision.getInstance()
-            .getOnDeviceImageLabeler();
+            .getCloudImageLabeler();
 
 
     @Override
