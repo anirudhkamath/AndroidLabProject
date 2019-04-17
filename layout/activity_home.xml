@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="585dp"
+        android:fontFamily="cursive"
+        android:text="Home Page"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="135dp"
+        android:layout_marginRight="135dp"
+        android:layout_marginBottom="479dp"
+        android:background="@color/colorPrimary"
+        android:onClick="viewact"
+        android:text="View Activity"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="82dp"
+        android:layout_marginRight="82dp"
+        android:layout_marginBottom="374dp"
+        android:background="@color/colorPrimary"
+        android:onClick="caloriesConsumed"
+        android:text="Calories Consumption"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="135dp"
+        android:layout_marginRight="135dp"
+        android:layout_marginBottom="273dp"
+        android:background="@color/colorPrimary"
+        android:onClick="caloriesLost"
+        android:text="Calories Lost"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="104dp"
+        android:layout_marginRight="104dp"
+        android:layout_marginBottom="173dp"
+        android:background="@color/colorPrimary"
+        android:onClick="addNewFood"
+        android:text="Add new food item"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:textSize="20dp" />
+
+</RelativeLayout>

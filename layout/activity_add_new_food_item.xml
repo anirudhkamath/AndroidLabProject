@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewFoodItem">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="42dp"
+        android:text="Add new food item"
+        android:fontFamily="cursive"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter food item"
+        android:textSize="20dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="140dp"/>
+
+    <EditText
+        android:id="@+id/foodname"
+        android:layout_width="312dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="180dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter calorie value"
+        android:textSize="20dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="260dp"/>
+
+    <EditText
+        android:id="@+id/cal"
+        android:layout_width="312dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="300dp" />
+    <Button
+        android:onClick="submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="42dp"
+        android:text="submit"/>
+
+    <Button
+        android:id="@+id/camera"
+        android:onClick="openCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="42dp"
+        android:text="Open Camera"/>
+    <Button
+        android:onClick="detect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:text="Detect"
+        android:layout_marginTop="500dp"/>
+
+</RelativeLayout>

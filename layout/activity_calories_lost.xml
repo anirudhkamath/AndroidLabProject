@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CaloriesLost">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="42dp"
+        android:text="Calories lost"
+        android:fontFamily="cursive"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exercise"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <Spinner
+        android:id="@+id/ex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="90dp"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of Minutes"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="20dp"/>
+
+    <EditText
+        android:id="@+id/mins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="180dp"/>
+
+    <Button
+        android:onClick="addexercise"
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Activity"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="150dp"/>
+</RelativeLayout>
